@@ -135,7 +135,6 @@ class Login extends React.Component {
             fields="name,email,picture"
             // onClick={componentClicked}
             callback={this.responseFacebook}
-            icon="fa-facebook"
           />
         </div>
       </div>
