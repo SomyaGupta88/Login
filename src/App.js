@@ -87,15 +87,13 @@ function Form() {
   );
 }
 
-// function ForgotPassword() {
-//   return (
-
-//   );
-// }
-
-// function SignUp() {
-//   return <form></form>;
-// }
+function Hr() {
+  return (
+    <div class="strike">
+      <span>OR</span>
+    </div>
+  );
+}
 
 class Login extends React.Component {
   responseGoogle(response) {
@@ -142,7 +140,7 @@ export default function App() {
         <div class="center pb">
           <Login />
         </div>
-
+        <Hr />
         <Form />
         {/* <ForgotPassword /> */}
         {/* <SignUp /> */}
