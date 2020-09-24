@@ -131,10 +131,11 @@ class Login extends React.Component {
           <FacebookLogin
             appId="1683703825121184"
             autoLoad={true}
-            size="medium"
+            size="small"
             fields="name,email,picture"
             // onClick={componentClicked}
             callback={this.responseFacebook}
+            icon="fa-facebook"
           />
         </div>
       </div>
