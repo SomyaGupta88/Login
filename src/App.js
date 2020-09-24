@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 import FacebookLogin from "react-facebook-login";
 import GoogleLogin from "react-google-login";
-import "./styles.css";
+import "./styles.scss";
 
 function Logo() {
   return (
